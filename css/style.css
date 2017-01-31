@@ -109,8 +109,9 @@
   }
   .globale {
     width: 100%;
-    text-align: center;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 @media all and (min-width: 600px) {
