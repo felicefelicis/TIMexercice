@@ -107,6 +107,11 @@
   footer div i:hover {
     color: #7f8ee3;
   }
+  .globale {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
 }
 @media all and (min-width: 600px) {
   /* Un premier media query pour le logo - apparaît en mode paysage sur les mobiles */
