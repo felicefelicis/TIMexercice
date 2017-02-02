@@ -15,7 +15,8 @@
     -ms-flex-direction: column;
     flex-direction: column;
     font-family: arial;
-    background-image: url("../images/fond.jpg");
+    background-image: url("../images/bg.jpeg");
+    background-size: cover;
   }
   header,
   footer {
@@ -106,7 +107,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
   }
   main section article {
     display: -webkit-box;
@@ -124,40 +125,40 @@
     font-size: 250px;
   }
   main .globale:nth-child(even) {
-    background-color: rgba(176, 95, 109, 0.7);
+    background-color: rgba(255, 212, 84, 0.7);
   }
   main .globale:nth-child(even) section article:nth-child(1) {
-    background-color: rgba(176, 95, 109, 0.7);
+    background-color: rgba(255, 212, 84, 0.7);
   }
   main .globale:nth-child(even) section article:nth-child(2) {
-    background-color: rgba(235, 107, 86, 0.7);
+    background-color: rgba(74, 218, 166, 0.7);
   }
   main .globale:nth-child(even) section article:nth-child(3) {
-    background-color: rgba(255, 193, 83, 0.7);
+    background-color: rgba(190, 74, 218, 0.7);
   }
   main .globale:nth-child(even) section article:nth-child(4) {
-    background-color: rgba(70, 36, 70, 0.7);
+    background-color: rgba(74, 111, 218, 0.7);
   }
   main .globale:nth-child(even) section article:nth-child(5) {
-    background-color: rgba(176, 95, 109, 0.7);
+    background-color: rgba(255, 212, 84, 0.7);
   }
   main .globale:nth-child(odd) {
-    background-color: rgba(235, 107, 86, 0.7);
+    background-color: rgba(74, 218, 166, 0.7);
   }
   main .globale:nth-child(odd) section article:nth-child(1) {
-    background-color: rgba(235, 107, 86, 0.7);
+    background-color: rgba(74, 218, 166, 0.7);
   }
   main .globale:nth-child(odd) section article:nth-child(2) {
-    background-color: rgba(255, 193, 83, 0.7);
+    background-color: rgba(190, 74, 218, 0.7);
   }
   main .globale:nth-child(odd) section article:nth-child(3) {
-    background-color: rgba(70, 36, 70, 0.7);
+    background-color: rgba(74, 111, 218, 0.7);
   }
   main .globale:nth-child(odd) section article:nth-child(4) {
-    background-color: rgba(176, 95, 109, 0.7);
+    background-color: rgba(255, 212, 84, 0.7);
   }
   main .globale:nth-child(odd) section article:nth-child(5) {
-    background-color: rgba(235, 107, 86, 0.7);
+    background-color: rgba(74, 218, 166, 0.7);
   }
   .globale {
     width: 100%;
