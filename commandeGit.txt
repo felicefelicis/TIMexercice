@@ -1,0 +1,258 @@
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/02_moyen.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/03_grand.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in less/style.less.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   css/01_petit.css
+        modified:   css/style.css
+        new file:   images/bg.jpeg
+        modified:   index.htm
+        modified:   less/01_petit.less
+
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git commit -m "mise a jour des fichiers less et css nouveau background"
+[master f85fec8] mise a jour des fichiers less et css nouveau background
+ 5 files changed, 236 insertions(+), 185 deletions(-)
+ create mode 100644 images/bg.jpeg
+ rewrite index.htm (65%)
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git branch develop
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git branch svg
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git checkout svg
+Switched to branch 'svg'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (svg)
+$ git status
+On branch svg
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/01_petit.css
+        modified:   css/style.css
+        modified:   index.htm
+        modified:   less/01_petit.less
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        img-svg/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (svg)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (svg)
+$ git commit -m "ajout une image SVG"
+[svg 7c80cbf] ajout une image SVG
+ 5 files changed, 237 insertions(+), 40 deletions(-)
+ create mode 100644 img-svg/01_cercle.svg
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (svg)
+$ git status
+On branch svg
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (svg)
+$ git checkout master
+Switched to branch 'master'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git checkout develop
+M       css/01_petit.css
+M       css/style.css
+Switched to branch 'develop'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git commit -m "ajout des webkits"
+[develop 6defc5d] ajout des webkits
+ 3 files changed, 209 insertions(+), 22 deletions(-)
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git status
+On branch develop
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git status
+On branch develop
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/01_petit.css
+        modified:   css/style.css
+        modified:   index.htm
+        modified:   less/01_petit.less
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git commit -m "nouvelles couleurs des sections html"
+[develop bcb5bee] nouvelles couleurs des sections html
+ 4 files changed, 52 insertions(+), 49 deletions(-)
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git status
+On branch develop
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git checkout master
+Switched to branch 'master'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git merge develop
+Updating f85fec8..bcb5bee
+error: Your local changes to the following files would be overwritten by merge:
+        css/01_petit.css
+        css/style.css
+Please commit your changes or stash them before you merge.
+Aborting
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git commit -m "merge avec master et develop"
+On branch master
+Changes not staged for commit:
+        modified:   css/01_petit.css
+        modified:   css/style.css
+
+no changes added to commit
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git commit -m "merge avec master et develop"
+On branch master
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        css/01_petit.css
+        css/style.css
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ dit commit -m "essayer de merge"
+bash: dit: command not found
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git commig -m "essaye de merge develop et master"
+git: 'commig' is not a git command. See 'git --help'.
+
+Did you mean this?
+        commit
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git commit -m "essayer de merge master et develop"
+On branch develop
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (develop)
+$ git checkout master
+Switched to branch 'master'
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git merge develop
+Updating f85fec8..bcb5bee
+error: Your local changes to the following files would be overwritten by merge:
+        css/01_petit.css
+        css/style.css
+Please commit your changes or stash them before you merge.
+Aborting
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git commit -m "merge develop et master pour de vrai"
+On branch master
+Changes not staged for commit:
+        modified:   css/01_petit.css
+        modified:   css/style.css
+
+no changes added to commit
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in css/01_petit.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git commit -m "merge"
+On branch master
+nothing to commit, working tree clean
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$ git merge develop
+Updating f85fec8..bcb5bee
+Fast-forward
+ css/01_petit.css   |  94 ++++++++++++++++++++++++++++++++++++-------
+ css/style.css      |  94 ++++++++++++++++++++++++++++++++++++-------
+ index.htm          |  30 +++++++-------
+ less/01_petit.less | 114 ++++++++++++++++++++++++++++++++++++++++-------------
+ 4 files changed, 261 insertions(+), 71 deletions(-)
+
+e0786366@B1153-G92QFX1 MINGW64 /c/veilleTechnologique/semaine3/exercice2 (master)
+$
