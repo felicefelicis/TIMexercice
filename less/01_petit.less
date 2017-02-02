@@ -8,24 +8,13 @@
 // @couleur-contrast : contrast(@couleur-base);
 @couleur-contrast : contrast(@couleur-base);
 
-
-@triadic-1 : spin(@couleur-base , -(360 / 3));
-@triadic-2 : spin(@couleur-base , (360 / 3));
-
-
-@couleur-1 : saturate(@couleur-complementaire, 10%);
-@couleur-2 : desaturate(@couleur-complementaire, 10%);
-@couleur-3 : desaturate(@couleur-complementaire, 20%);
-@couleur-4 : saturate(@couleur-complementaire, 30%);
-@couleur-5 : desaturate(@couleur-complementaire, 40%);
-@couleur-6 : desaturate(@couleur-complementaire, 50%);
-@couleur-7 : desaturate(@couleur-complementaire, 60%);
+@couleur-1  : rgba(176, 95, 109, 0.7);
+@couleur-2  : rgba(235, 107, 86, 0.7);
+@couleur-3 : rgba(255, 193, 83, 0.7);
+@couleur-4: rgba(70, 36, 70, 0.7);
+@couleur-5 : rgba(71, 179, 157, 0.7);
 
 
-
-@couleur-8  : mix(@couleur-base, @triadic-1);
-@couleur-9  : mix(@couleur-base, @triadic-2);
-@couleur-10 : mix(@couleur-base, @couleur-complementaire);
 
 
 
@@ -37,17 +26,16 @@
 
 
 
-
-
-
 body{
   display : flex;
   flex-direction: column;
   font-family: arial;
+  background-image: url("../images/fond.jpg");
 }
 
 header, footer {
     background-color : @couleur-contrast ;
+    width: 960px;
 }
 header{
   display: flex;
@@ -95,35 +83,62 @@ header{
       } // fin nav
     } // fin header  
 
-main{
+main {
     display:flex;
     flex-direction:column;
+
     section{
       display:flex;
       flex-direction:column;
       justify-content:center;
       align-items:center;
+      width: 100%;
       article{
         display:flex;
         justify-content:center;
         width:100%;
         align-items: center;
         height : @largeur_article;
-       // border: 1px solid #aaa;
+        //border: 1px solid #aaa;
         font-size: @largeur_article;
       }
-
-      &:nth-child(even) {
-          article:nth-child(1) {background-color: @couleur-base;}
-          article:nth-child(2) {background-color: @triadic-1;}
-          article:nth-child(3) {background-color: @triadic-2;}
-      }
-      &:nth-child(odd) {
-          article:nth-child(1) {background-color: @couleur-8;}
-          article:nth-child(2) {background-color: @couleur-9;}
-          article:nth-child(3) {background-color: @couleur-10;}
-      }
     }
+
+    .globale:nth-child(even) {
+      background-color: @couleur-1;
+        section{
+          article:nth-child(1) {background-color: @couleur-1;}
+          article:nth-child(2) {background-color: @couleur-2;}
+          article:nth-child(3) {background-color: @couleur-3;}
+          article:nth-child(4) {background-color: @couleur-4;}
+          article:nth-child(5) {background-color: @couleur-1;}
+        }    
+    }
+     .globale:nth-child(odd) {
+      background-color: @couleur-2;
+       section{
+            article:nth-child(1) {background-color: @couleur-2;}
+            article:nth-child(2) {background-color: @couleur-3;}
+            article:nth-child(3) {background-color: @couleur-4;}
+            article:nth-child(4) {background-color: @couleur-1;}
+            article:nth-child(5) {background-color: @couleur-2;}
+        }
+    }
+}
+
+.globale{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+body > .globale:first-child{
+  background-color: black;
+}
+
+body > .globale:last-child{
+  background-color: black;
 }
 
 footer{
@@ -144,11 +159,4 @@ footer div i{
 }
 footer div i:hover{
    color : @couleur-complementaire;
-}
-
-.globale{
-  width: 100%;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
 }
