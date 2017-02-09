@@ -14,7 +14,10 @@ body {
   flex-direction: column;
   font-family: arial;
   background-image: url("../images/bg.jpeg");
+<<<<<<< HEAD
   background-size: cover;
+=======
+>>>>>>> svg
 }
 header,
 footer {
