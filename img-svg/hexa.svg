@@ -1,0 +1,14 @@
+<svg id="Calque_10" data-name="Calque 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 198.64 319.6">
+  <defs>
+    <clipPath id="clip-path" transform="translate(19.1 81.8)">
+      <polygon id="_Polygone_" data-name="&lt;Polygone&gt;" points="93.07 187.85 20.45 137.93 27.38 50.07 106.93 12.14 179.55 62.07 172.62 149.93 93.07 187.85" style="fill: #f15a29"/>
+    </clipPath>
+  </defs>
+  <title>hexa</title>
+  <g>
+    <polygon id="_Polygone_2" data-name="&lt;Polygone&gt;" points="112.17 269.66 39.55 219.73 46.48 131.87 126.02 93.95 198.64 143.88 191.72 231.73 112.17 269.66" style="fill: #f15a29"/>
+    <g style="clip-path: url(#clip-path)">
+      <rect x="-7" y="-78" width="109" height="312" transform="translate(25.37 78.31) rotate(4.51)" style="fill: #be1e2d"/>
+    </g>
+  </g>
+</svg>

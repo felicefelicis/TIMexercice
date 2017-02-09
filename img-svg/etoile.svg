@@ -1,0 +1,14 @@
+<svg id="Calque_9" data-name="Calque 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 195.94 216.17">
+  <defs>
+    <clipPath id="clip-path" transform="translate(32.56 10.09)">
+      <polygon id="_Masque_" data-name="&lt;Masque&gt;" points="153.12 161.38 99.58 146.31 56.81 181.87 54.6 126.3 7.57 96.62 59.74 77.34 73.43 23.43 107.89 67.09 163.38 63.46 132.51 109.72 153.12 161.38" style="fill: #e0853b"/>
+    </clipPath>
+  </defs>
+  <title>etoile</title>
+  <g>
+    <polygon id="_Masque_2" data-name="&lt;Masque&gt;" points="185.67 171.47 132.13 156.4 89.37 191.96 87.16 136.39 40.12 106.7 92.29 87.43 105.99 33.52 140.44 77.18 195.94 73.55 165.07 119.81 185.67 171.47" style="fill: #e0853b"/>
+    <g style="clip-path: url(#clip-path)">
+      <rect x="-14" y="-2" width="102.48" height="200" transform="translate(14.12 19.25) rotate(-11.27)" style="fill: #f15a29"/>
+    </g>
+  </g>
+</svg>
